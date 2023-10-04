@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+    --primary-color: #618264;
+    --secondary-color: #D0E7D2;
+    --accent-color: #B0D9B1;
+    --text-color: #79AC78;
+  }
+
+.parent-container {
+    padding: 0 0 5rem 0;
+    background-color: #79AC78;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-head {
+    color: #D0E7D2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 1.5rem;
+}
+
+.section-title {
+    color: #618264;
+}
+
+.menu {
+    background-color: #D0E7D2;
+    width: 60rem;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-wrap: wrap; /* Wrap items onto new lines if they overflow horizontally */
+    border-radius: 2rem;
+}
+
+.menu > div {
+    width: 13rem;
+    padding: 0 0 3rem 0;
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+
+.menu .section1 {
+    margin-left: 3.2rem;
+}
+
+  .selected {
+    display: flex; /* Use flexbox to control alignment */
+    justify-content: center; /* Center align vertically */
+    width: 60rem;
+    height: 10rem;
+    margin-top: 2rem;
+    background-color: #D0E7D2 ;
+    border-radius: 2rem;
+    padding: 0 0 2rem 0;
+  }
+
+  .selected div {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    flex-wrap: wrap; /* Wrap items onto new lines if they overflow horizontally */
+    width: 13rem;
+    text-align: center; /* Align the text within divs to the left */
+
+  }
+
+  .selected img {
+    width: 10vh;
+  }
+
+input[type=radio i] {
+    transform: scale(1.8);
+    margin-right: 25px;
+    background-color: red;
+    
+}
+
+/* input[type=radio i]:checked {
+    background-color: #618264;
+    border-color: #79AC78;
+    color: white;
+} */
+
+img {
+    width: 15vh;
+}
+
+p {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #618264;
+  }
+
+  
